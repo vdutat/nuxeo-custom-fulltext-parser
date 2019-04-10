@@ -1,0 +1,1 @@
+# nuxeo-custom-fulltext-parser
