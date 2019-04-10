@@ -16,12 +16,7 @@ public class CustomFulltextParser extends DefaultFulltextParser {
         if (log.isDebugEnabled()) {
             log.debug("<parse> path: [" + path + "] string: [" + s + "] documentLocation: " + documentLocation);
         }
-        s = preprocessField(s, path, mimeType);
-        for (String word : WORD_SPLIT_PATTERN.split(s)) {
-            if (!word.isEmpty()) {
-                strings.add(word.toLowerCase());
-            }
-        }
+        super.parse(s, path, mimeType, documentLocation, strings);
         if ("dc:title".equals(path)) {
             strings.add(s);
         }
