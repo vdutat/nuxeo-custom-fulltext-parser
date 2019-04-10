@@ -1,0 +1,8 @@
+Bundle-ActivationPolicy: lazy
+Bundle-ClassPath: .
+Manifest-Version: 1.0
+Bundle-Vendor: com.acme.ecm
+Bundle-Version: 1.0.0
+Bundle-Name: nuxeo-custom-fulltext-parser-core
+Bundle-ManifestVersion: 2
+Bundle-SymbolicName: com.acme.ecm.nuxeo-custom-fulltext-parser-core;singleton=true
