@@ -2,6 +2,8 @@
 
 Plugin contributng a **java** class that will be used as **fulltext parser** by the repository. The default **fulltext parser** performs word-splitting, this one will add the string as it is for property `dc:title` in addition to the splitted words from the property's value. As an example it allows to a document with title `INF-08-000302` using the search string `INF-08-00*`.
 
+The **fulltext parser** is executed when the document is saved in the reporsitory.
+
 This **fulltext parser** will be used **ONLY** if **elasticsearch** is disabled.
 
 # Requirements
