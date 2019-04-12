@@ -6,6 +6,8 @@ The **fulltext parser** is executed when the document is saved in the reporsitor
 
 This **fulltext parser** will be used **ONLY** if **elasticsearch** is disabled.
 
+Existing documents need to be re-indexed, see addon [Nuxeo Reindex Fulltext](https://github.com/nuxeo/nuxeo-reindex-fulltext) to trigger a **full text** re-indexing.
+
 # Requirements
 
 Building requires the following software:
